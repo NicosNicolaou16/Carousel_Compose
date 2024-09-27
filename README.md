@@ -2,7 +2,7 @@
 The open source project is implement the new Carousel with Material 3 with Jetpack Compose and shows two example, `HorizontalUncontainedCarousel` and `HorizontalMultiBrowseCarousel`.
 
 # The Project Contain the following technologies
-Carousel Material 3 Jetpack Compose - https://developer.android.com/reference/kotlin/androidx/compose/material3/carousel/package-summary <br />
+Carousel Material 3 Jetpack Compose - [Carousel](https://developer.android.com/reference/kotlin/androidx/compose/material3/carousel/package-summary) <br />
 Kotlin - https://kotlinlang.org/docs/getting-started.html <br />
 Jetpack Compose https://developer.android.com/develop/ui/compose <br />
 Jetpack Compose Navigation - New Shared Element Transition - https://developer.android.com/develop/ui/compose/animation/shared-elements - https://fvilarino.medium.com/shared-element-transitions-in-jetpack-compose-8f553078101e - https://getstream.io/blog/shared-element-compose/  <br />
