@@ -1,5 +1,5 @@
 # Carousel Compose
-
+The open source project is implement the new Carousel with Material 3 with Jetpack Compose and shows two example, `HorizontalUncontainedCarousel` and `HorizontalMultiBrowseCarousel`.
 
 # The Project Contain the following technologies
 Kotlin - https://kotlinlang.org/docs/getting-started.html <br />
