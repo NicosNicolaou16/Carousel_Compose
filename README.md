@@ -21,6 +21,9 @@ Offline Support <br />
 R8 enabled <br />
 
 # Examples
+<p align="left">
+  <a title="simulator_image"><img src="examples/example_gif.gif" height="500" width="200"></a>
+</p>
 
 # Versioning
 Target SDK version: 34 <br />
