@@ -43,7 +43,7 @@ import com.nicos.carousel_compose.utils.extensions.getProgressDrawable
 fun PokemonListScreen() {
     Scaffold(topBar = {
         CustomToolbar(
-            title = stringResource(R.string.pokemon_list),
+            title = stringResource(R.string.pokemon_carousel),
         )
     }) { paddingValues ->
         CarouselPokemonList(

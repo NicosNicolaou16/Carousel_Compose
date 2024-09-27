@@ -8,5 +8,5 @@
     <string name="ok">OK</string>
     <string name="kg">Kg</string>
     <string name="pokemon_details">Pokemon Details</string>
-    <string name="pokemon_list">Pokemon List</string>
+    <string name="pokemon_carousel">Pokemon Carousel</string>
 </resources>
