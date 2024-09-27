@@ -5,7 +5,6 @@ The open source project is implement the new Carousel with Material 3 with Jetpa
 Carousel Material 3 Jetpack Compose - [Carousel](https://developer.android.com/reference/kotlin/androidx/compose/material3/carousel/package-summary) <br />
 Kotlin - [Kotlin](https://kotlinlang.org/docs/getting-started.html) <br />
 Jetpack Compose [Jetpack Compose](https://developer.android.com/develop/ui/compose) <br />
-Jetpack Compose Navigation - New Shared Element Transition - [Shared Element1](https://developer.android.com/develop/ui/compose/animation/shared-elements) - [Shared Element2](https://fvilarino.medium.com/shared-element-transitions-in-jetpack-compose-8f553078101e) - [Shared Element2](https://getstream.io/blog/shared-element-compose/)  <br />
 Retrofit for Network Manager [Retrofit](https://square.github.io/retrofit/) - [Retrofit - GitHub](https://github.com/square/retrofit) <br />
 Room Database [Room Database](https://developer.android.com/training/data-storage/room) <br />
 KSP - [KSP](https://developer.android.com/build/migrate-to-ksp) - [KSP - GitHub](https://github.com/google/ksp) <br />
