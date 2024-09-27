@@ -1,10 +1,10 @@
-package com.nicos.pokedex_compose.domain.repositories
+package com.nicos.carousel_compose.domain.repositories
 
-import com.nicos.pokedex_compose.data.room_database.entities.PokemonEntity
-import com.nicos.pokedex_compose.data.room_database.init_database.MyRoomDatabase
-import com.nicos.pokedex_compose.domain.remote.PokemonService
-import com.nicos.pokedex_compose.utils.generic_classes.HandlingError
-import com.nicos.pokedex_compose.utils.generic_classes.Resource
+import com.nicos.carousel_compose.data.room_database.entities.PokemonEntity
+import com.nicos.carousel_compose.data.room_database.init_database.MyRoomDatabase
+import com.nicos.carousel_compose.domain.remote.PokemonService
+import com.nicos.carousel_compose.utils.generic_classes.HandlingError
+import com.nicos.carousel_compose.utils.generic_classes.Resource
 import kotlinx.coroutines.flow.collect
 import javax.inject.Inject
 

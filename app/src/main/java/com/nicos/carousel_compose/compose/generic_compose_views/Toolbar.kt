@@ -1,4 +1,4 @@
-package com.nicos.pokedex_compose.compose.generic_compose_views
+package com.nicos.carousel_compose.compose.generic_compose_views
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
@@ -19,8 +19,8 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.nicos.pokedex_compose.R
-import com.nicos.pokedex_compose.ui.theme.GreenLight
+import com.nicos.carousel_compose.R
+import com.nicos.carousel_compose.ui.theme.GreenLight
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

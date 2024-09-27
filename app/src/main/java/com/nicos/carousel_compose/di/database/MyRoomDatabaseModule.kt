@@ -1,7 +1,7 @@
-package com.nicos.pokedex_compose.di.database
+package com.nicos.carousel_compose.di.database
 
 import android.content.Context
-import com.nicos.pokedex_compose.data.room_database.init_database.MyRoomDatabase
+import com.nicos.carousel_compose.data.room_database.init_database.MyRoomDatabase
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

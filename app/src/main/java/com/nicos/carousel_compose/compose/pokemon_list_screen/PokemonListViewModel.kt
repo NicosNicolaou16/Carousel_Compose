@@ -1,9 +1,10 @@
-package com.nicos.pokedex_compose.compose.pokemon_list_screen
+package com.nicos.carousel_compose.compose.pokemon_list_screen
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.nicos.pokedex_compose.domain.repositories.PokemonListRepository
-import com.nicos.pokedex_compose.utils.generic_classes.Resource
+import com.nicos.carousel_compose.domain.repositories.PokemonListRepository
+import com.nicos.carousel_compose.utils.generic_classes.Resource
+import com.nicos.pokedex_compose.compose.pokemon_list_screen.PokemonListState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow

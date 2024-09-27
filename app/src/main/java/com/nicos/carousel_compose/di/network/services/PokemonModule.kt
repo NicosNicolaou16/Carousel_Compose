@@ -1,6 +1,6 @@
-package com.nicos.pokedex_compose.di.network.services
+package com.nicos.carousel_compose.di.network.services
 
-import com.nicos.pokedex_compose.domain.remote.PokemonService
+import com.nicos.carousel_compose.domain.remote.PokemonService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

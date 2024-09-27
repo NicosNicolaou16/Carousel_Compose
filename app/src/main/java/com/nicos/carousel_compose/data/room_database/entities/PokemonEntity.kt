@@ -1,9 +1,9 @@
-package com.nicos.pokedex_compose.data.room_database.entities
+package com.nicos.carousel_compose.data.room_database.entities
 
 import androidx.core.text.isDigitsOnly
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.nicos.pokedex_compose.data.room_database.init_database.MyRoomDatabase
+import com.nicos.carousel_compose.data.room_database.init_database.MyRoomDatabase
 import kotlinx.coroutines.flow.flow
 
 @Entity

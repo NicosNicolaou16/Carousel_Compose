@@ -1,4 +1,4 @@
-package com.nicos.pokedex_compose.utils.generic_classes
+package com.nicos.carousel_compose.utils.generic_classes
 
 sealed class Resource<T>(
     val data: T? = null,

@@ -1,7 +1,7 @@
-package com.nicos.pokedex_compose.utils.generic_classes
+package com.nicos.carousel_compose.utils.generic_classes
 
 import android.content.Context
-import com.nicos.pokedex_compose.R
+import com.nicos.carousel_compose.R
 import okhttp3.ResponseBody
 import org.json.JSONArray
 import org.json.JSONObject

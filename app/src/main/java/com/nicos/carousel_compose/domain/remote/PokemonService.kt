@@ -1,7 +1,6 @@
-package com.nicos.pokedex_compose.domain.remote
+package com.nicos.carousel_compose.domain.remote
 
-import com.nicos.pokedex_compose.data.models.pokemon_response_model.PokemonResponse
-import com.nicos.pokedex_compose.data.room_database.entities.PokemonDetailsEntity
+import com.nicos.carousel_compose.data.models.pokemon_response_model.PokemonResponse
 import retrofit2.http.GET
 import retrofit2.http.Url
 
@@ -12,7 +11,4 @@ interface PokemonService {
 
     @GET
     suspend fun getPokemon(@Url url: String): PokemonResponse
-
-    @GET
-    suspend fun getPokemonDetails(@Url url: String): PokemonDetailsEntity
 }

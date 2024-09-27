@@ -1,7 +1,7 @@
-package com.nicos.ships.di.handing_error
+package com.nicos.carousel_compose.di.handing_error
 
 import android.content.Context
-import com.nicos.pokedex_compose.utils.generic_classes.HandlingError
+import com.nicos.carousel_compose.utils.generic_classes.HandlingError
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

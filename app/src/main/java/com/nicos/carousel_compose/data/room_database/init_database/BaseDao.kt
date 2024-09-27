@@ -1,4 +1,4 @@
-package com.nicos.pokedex_compose.data.room_database.init_database
+package com.nicos.carousel_compose.data.room_database.init_database
 
 import androidx.room.*
 

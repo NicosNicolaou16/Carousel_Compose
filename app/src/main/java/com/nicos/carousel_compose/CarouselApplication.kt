@@ -1,8 +1,8 @@
-package com.nicos.pokedex_compose
+package com.nicos.carousel_compose
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
 
 @HiltAndroidApp
-class PokemonApplication : Application() {
+class CarouselApplication : Application() {
 }

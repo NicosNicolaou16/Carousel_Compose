@@ -1,4 +1,4 @@
-package com.nicos.pokedex_compose.compose.generic_compose_views
+package com.nicos.carousel_compose.compose.generic_compose_views
 
 import androidx.annotation.MainThread
 import androidx.annotation.UiThread
@@ -17,7 +17,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.window.DialogProperties
-import com.nicos.pokedex_compose.R
+import com.nicos.carousel_compose.R
 
 @UiThread
 @MainThread

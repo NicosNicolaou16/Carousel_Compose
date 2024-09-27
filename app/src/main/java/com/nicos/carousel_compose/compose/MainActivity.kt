@@ -8,8 +8,8 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import com.nicos.pokedex_compose.compose.navigation.Navigation
-import com.nicos.pokedex_compose.ui.theme.Pokedex_ComposeTheme
+import com.nicos.carousel_compose.ui.theme.Carousel_ComposeTheme
+import com.nicos.carousel_compose.compose.navigation.Navigation
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -17,14 +17,14 @@ class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
         setContent {
-            Pokedex_ComposeTheme {
-                // A surface container using the 'background' color from the theme
+            Carousel_ComposeTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Navigation({ enableEdgeToEdge() })
+                    Navigation()
                 }
             }
         }
