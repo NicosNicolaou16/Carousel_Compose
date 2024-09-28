@@ -10,6 +10,7 @@ plugins {
 
 android {
     namespace = "com.nicos.carousel_compose"
+    buildToolsVersion = "34.0.0"
     compileSdk = 34
 
     defaultConfig {
@@ -68,7 +69,6 @@ dependencies {
     implementation(libs.androidx.swipe.refresh.layout)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     //Compose
-    //implementation(libs.androidx.compose.compiler)
     implementation(libs.androidx.activity.compose)
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.ui)
