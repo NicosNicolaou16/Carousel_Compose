@@ -24,6 +24,9 @@ R8 enabled <br />
   <a title="simulator_image"><img src="examples/example_gif.gif" height="500" width="200"></a>
 </p>
 
+## Check my article
+https://medium.com/@nicosnicolaou/carousel-jetpack-compose-with-material-3-ca048d35278c <br />
+
 # Versioning
 Target SDK version: 34 <br />
 Minimum SDK version: 27 <br />
