@@ -88,6 +88,7 @@ fun CarouselPokemonList(
                             MaterialTheme.shapes.extraLarge
                         )
                 )
+                //Paging
                 LaunchedEffect(key1 = true) {
                     if (!state.nextPage.isNullOrEmpty() && state.pokemonMutableList.size - 1 == index) {
                         pokemonListViewModel.requestToFetchPokemon(
@@ -119,6 +120,7 @@ fun CarouselPokemonList(
                             MaterialTheme.shapes.extraLarge
                         )
                 )
+                //Paging
                 LaunchedEffect(key1 = true) {
                     if (!state.nextPage.isNullOrEmpty() && state.pokemonMutableList.size - 1 == index) {
                         pokemonListViewModel.requestToFetchPokemon(
