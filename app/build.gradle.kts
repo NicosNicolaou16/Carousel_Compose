@@ -10,13 +10,13 @@ plugins {
 
 android {
     namespace = "com.nicos.carousel_compose"
-    buildToolsVersion = "34.0.0"
-    compileSdk = 34
+    buildToolsVersion = "35.0.0"
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.nicos.carousel_compose"
-        minSdk = 27
-        targetSdk = 34
+        minSdk = 28
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
