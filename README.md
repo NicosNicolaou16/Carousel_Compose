@@ -28,10 +28,10 @@ R8 enabled <br />
 https://medium.com/@nicosnicolaou/carousel-jetpack-compose-with-material-3-ca048d35278c <br />
 
 # Versioning
-Target SDK version: 34 <br />
-Minimum SDK version: 27 <br />
-Kotlin version: 2.0.20 <br />
-Gradle version: 8.6.1 <br />
+Target SDK version: 35 <br />
+Minimum SDK version: 28 <br />
+Kotlin version: 2.0.21 <br />
+Gradle version: 8.7.2 <br />
 
 # Feeds/Urls/End Point (parsing some data from the response)
 ## (Links References for Ends Points)
