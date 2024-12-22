@@ -18,10 +18,15 @@ offer more concise and expressive code for working with Android APIs and librari
 The UI is build using [Jetpack Compose](https://developer.android.com/develop/ui/compose). <br />
 [Retrofit](https://square.github.io/retrofit/) is responsible for making requests and retrieving
 data from the remote server. ([Repository](https://github.com/square/retrofit)) <br />
-[Room Database](https://developer.android.com/training/data-storage/room) is responsible for saving the retrieved data from the remote server, querying data from the local database, and supporting offline functionality.  <br />
-KSP - [KSP](https://developer.android.com/build/migrate-to-ksp) - [KSP - GitHub](https://github.com/google/ksp) <br />
-Coil For
-Compose - [Coil Compose](https://coil-kt.github.io/coil/compose/) - [Coil - GitHub](https://coil-kt.github.io/coil/) - [Coil](https://github.com/coil-kt/coil) <br />
+[Room Database](https://developer.android.com/training/data-storage/room) is responsible for saving
+the retrieved data from the remote server, querying data from the local database, and supporting
+offline functionality.  <br />
+[KSP](https://developer.android.com/build/migrate-to-ksp) ("Kotlin Symbol Processing") is a tool for
+efficient annotation processing in Kotlin, providing faster code generation and symbol manipulation
+compared to KAPT. [Repository](https://github.com/google/ksp) <br />
+[Coil](https://coil-kt.github.io/coil/compose/) for Jetpack Compose is a library that it is
+responsible for loading the images
+asynchronous. ([Coil Documentation](https://coil-kt.github.io/coil/), [Repository](https://github.com/coil-kt/coil)) <br />
 Hilt Dependencies
 Injection - [Hilt Dependencies Injection](https://developer.android.com/training/dependency-injection/hilt-android) <br />
 New Navigation Type
