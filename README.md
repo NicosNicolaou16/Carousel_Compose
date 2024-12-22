@@ -4,10 +4,7 @@ The open-source project implements the new Carousel with Material 3 using Jetpac
 provides two examples: `HorizontalUncontainedCarousel` and `HorizontalMultiBrowseCarousel`.
 
 > [!IMPORTANT]  
-> Check my article :
->
-point_right: [Carousel Jetpack Compose with Material 3 - Medium](https://medium.com/@nicosnicolaou/carousel-jetpack-compose-with-material-3-ca048d35278c) :
-> point_left: <br />
+> Check my article :point_right: [Carousel Jetpack Compose with Material 3 - Medium](https://medium.com/@nicosnicolaou/carousel-jetpack-compose-with-material-3-ca048d35278c) :point_left: <br />
 
 # Examples
 
