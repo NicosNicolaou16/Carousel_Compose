@@ -3,6 +3,12 @@
 The open source project is implement the new Carousel with Material 3 with Jetpack Compose and shows
 two example, `HorizontalUncontainedCarousel` and `HorizontalMultiBrowseCarousel`.
 
+# Examples
+
+<p align="left">
+  <a title="simulator_image"><img src="examples/example_gif.gif" height="500" width="200"></a>
+</p>
+
 # The Project Contain the following technologies
 
 [Carousel Material 3 Jetpack Compose](https://developer.android.com/reference/kotlin/androidx/compose/material3/carousel/package-summary)
@@ -39,12 +45,6 @@ For Navigation between screens is use
 the [New Navigation Type Safety](https://medium.com/androiddevelopers/navigation-compose-meet-type-safety-e081fb3cf2f8). <br />
 [UI State](https://developer.android.com/topic/architecture/ui-layer/events#handle-viewmodel-events)
 to initial, loading, loaded and error. <br />
-
-# Examples
-
-<p align="left">
-  <a title="simulator_image"><img src="examples/example_gif.gif" height="500" width="200"></a>
-</p>
 
 ## Check my article
 
