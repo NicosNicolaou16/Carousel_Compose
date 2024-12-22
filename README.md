@@ -40,11 +40,6 @@ the [New Navigation Type Safety](https://medium.com/androiddevelopers/navigation
 [UI State](https://developer.android.com/topic/architecture/ui-layer/events#handle-viewmodel-events)
 to initial, loading, loaded and error. <br />
 
-# Others
-
-UI State <br />
-R8 enabled <br />
-
 # Examples
 
 <p align="left">
