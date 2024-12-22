@@ -51,10 +51,6 @@ the [New Navigation Type Safety](https://medium.com/androiddevelopers/navigation
 [UI State](https://developer.android.com/topic/architecture/ui-layer/events#handle-viewmodel-events)
 to initial, loading, loaded and error. <br />
 
-## Check my article
-
-https://medium.com/@nicosnicolaou/carousel-jetpack-compose-with-material-3-ca048d35278c <br />
-
 # Versioning
 
 Target SDK version: 35 <br />
