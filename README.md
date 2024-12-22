@@ -3,8 +3,10 @@ The open source project is implement the new Carousel with Material 3 with Jetpa
 
 # The Project Contain the following technologies
 Carousel Material 3 Jetpack Compose - [Carousel](https://developer.android.com/reference/kotlin/androidx/compose/material3/carousel/package-summary) <br />
-Kotlin - [Kotlin](https://kotlinlang.org/docs/getting-started.html) <br />
-Jetpack Compose [Jetpack Compose](https://developer.android.com/develop/ui/compose) <br />
+The programming language is the [Kotlin](https://kotlinlang.org/docs/getting-started.html), it is a modern, JVM-based programming language that is concise, safe, and interoperable with Java. <br />
+[Kotlin Coroutines](https://kotlinlang.org/docs/coroutines-overview.html) is used for asynchronous tasks. <br />
+[Kotlin KTX](https://developer.android.com/kotlin/ktx) is a collection of Kotlin extensions that offer more concise and expressive code for working with Android APIs and libraries.
+The UI is build using [Jetpack Compose](https://developer.android.com/develop/ui/compose). <br />
 Retrofit for Network Manager [Retrofit](https://square.github.io/retrofit/) - [Retrofit - GitHub](https://github.com/square/retrofit) <br />
 Room Database [Room Database](https://developer.android.com/training/data-storage/room) <br />
 KSP - [KSP](https://developer.android.com/build/migrate-to-ksp) - [KSP - GitHub](https://github.com/google/ksp) <br />
