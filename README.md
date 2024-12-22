@@ -27,10 +27,16 @@ compared to KAPT. [Repository](https://github.com/google/ksp) <br />
 [Coil](https://coil-kt.github.io/coil/compose/) for Jetpack Compose is a library that it is
 responsible for loading the images
 asynchronous. ([Coil Documentation](https://coil-kt.github.io/coil/), [Repository](https://github.com/coil-kt/coil)) <br />
-[Hilt Dependencies Injection](https://developer.android.com/training/dependency-injection/hilt-android) is an Android library that simplifies dependency injection by using annotations to automatically manage and provide dependencies across components, built on top of Dagger. ([Documentation](https://dagger.dev/hilt/)) <br />
-[MVVM](https://developer.android.com/topic/architecture#recommended-app-arch) with repository is an architecture where the Repository manages data sources (e.g., network, database), the ViewModel processes the data for the UI, and the View displays the UI, ensuring a clear separation of concerns. <br />
-New Navigation Type
-Safety - [Navigation Type Safety](https://medium.com/androiddevelopers/navigation-compose-meet-type-safety-e081fb3cf2f8) <br />
+[Hilt Dependencies Injection](https://developer.android.com/training/dependency-injection/hilt-android)
+is an Android library that simplifies dependency injection by using annotations to automatically
+manage and provide dependencies across components, built on top of
+Dagger. ([Documentation](https://dagger.dev/hilt/)) <br />
+[MVVM](https://developer.android.com/topic/architecture#recommended-app-arch) with repository is an
+architecture where the Repository manages data sources (e.g., network, database), the ViewModel
+processes the data for the UI, and the View displays the UI, ensuring a clear separation of
+concerns. <br />
+For Navigation between screens is use
+the [New Navigation Type Safety](https://medium.com/androiddevelopers/navigation-compose-meet-type-safety-e081fb3cf2f8). <br />
 
 # Others
 
