@@ -37,13 +37,12 @@ processes the data for the UI, and the View displays the UI, ensuring a clear se
 concerns. <br />
 For Navigation between screens is use
 the [New Navigation Type Safety](https://medium.com/androiddevelopers/navigation-compose-meet-type-safety-e081fb3cf2f8). <br />
+[UI State](https://developer.android.com/topic/architecture/ui-layer/events#handle-viewmodel-events)
+to initial, loading, loaded and error. <br />
 
 # Others
 
 UI State <br />
-View Model <br />
-Repository <br />
-Offline Support <br />
 R8 enabled <br />
 
 # Examples
