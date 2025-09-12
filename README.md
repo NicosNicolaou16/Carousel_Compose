@@ -51,10 +51,10 @@ to initial, loading, loaded and error. <br />
 
 # Versioning
 
-Target SDK version: 35 <br />
-Minimum SDK version: 28 <br />
-Kotlin version: 2.1.21 <br />
-Gradle version: 8.10.1 <br />
+Target SDK version: 36 <br />
+Minimum SDK version: 29 <br />
+Kotlin version: 2.2.20 <br />
+Gradle version: 8.13.0 <br />
 
 # Feeds/Urls/End Point (parsing some data from the response)
 
