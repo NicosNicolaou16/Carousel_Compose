@@ -69,7 +69,7 @@ android {
 
 dependencies {
 
-//Architecture
+    //Architecture
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.swipe.refresh.layout)
     implementation(libs.androidx.lifecycle.runtime.ktx)
