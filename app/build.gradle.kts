@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -10,13 +12,13 @@ plugins {
 
 android {
     namespace = "com.nicos.carousel_compose"
-    buildToolsVersion = "35.0.1"
-    compileSdk = 35
+    buildToolsVersion = "36.0.0"
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.nicos.carousel_compose"
-        minSdk = 28
-        targetSdk = 35
+        minSdk = 29
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
@@ -43,11 +45,14 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_17
-        targetCompatibility = JavaVersion.VERSION_17
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
     }
-    kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_17.toString()
+    kotlin {
+        compilerOptions {
+            jvmTarget = JvmTarget.fromTarget("21")
+            freeCompilerArgs = listOf("-Xannotation-default-target=param-property")
+        }
     }
     buildFeatures {
         compose = true
