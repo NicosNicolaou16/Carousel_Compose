@@ -1,6 +1,6 @@
 package com.nicos.carousel_compose.domain.remote
 
-import com.nicos.carousel_compose.data.models.pokemon_response_model.PokemonResponse
+import com.nicos.carousel_compose.domain.pokemon_response_model.PokemonResponse
 import retrofit2.http.GET
 import retrofit2.http.Url
 
