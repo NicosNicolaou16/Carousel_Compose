@@ -1,5 +1,74 @@
 # Carousel Compose
 
+An open-source Android project that demonstrates the implementation of the new Carousel component in Material 3 using Jetpack Compose. It provides clear examples for both `HorizontalUncontainedCarousel` and `HorizontalMultiBrowseCarousel`.
+
+> [!IMPORTANT]  
+> For a detailed explanation, check out my article: 👉 [Carousel Jetpack Compose with Material 3 - Medium](https://medium.com/@nicosnicolaou/carousel-jetpack-compose-with-material-3-ca048d35278c) 👈
+
+## 🚀 Examples
+
+This project showcases different carousel implementations. Here is a preview of the `HorizontalMultiBrowseCarousel`:
+
+<p align="center">
+  <img src="examples/example_gif.gif" alt="Carousel Example GIF" height="500">
+</p>
+
+## 🛠️ Technologies & Libraries
+
+This project is built with modern Android development tools and follows best practices.
+
+*   **UI**:
+    *   [**Jetpack Compose**](https://developer.android.com/develop/ui/compose): The entire UI is built with Google's modern declarative UI toolkit.
+    *   [**Carousel for Material 3**](https://developer.android.com/reference/kotlin/androidx/compose/material3/carousel/package-summary): Implements a horizontally scrollable list of content like images or cards.
+    *   [**Coil**](https://coil-kt.github.io/coil/compose/): An image loading library for Android backed by Kotlin Coroutines. Used for loading images asynchronously.
+
+*   **Core & Architecture**:
+    *   [**Kotlin**](https://kotlinlang.org/docs/getting-started.html): The official programming language for Android development.
+    *   [**Kotlin Coroutines & Flow**](https://kotlinlang.org/docs/coroutines-overview.html): Used for managing background threads and handling asynchronous data streams.
+    *   [**MVVM with Repository Pattern**](https://developer.android.com/topic/architecture#recommended-app-arch): Follows a recommended architecture to ensure a clear separation of concerns, making the app scalable and maintainable.
+    *   [**UI State Management**](https://developer.android.com/topic/architecture/ui-layer/events#handle-viewmodel-events): Manages UI states such as `Initial`, `Loading`, `Success`, and `Error`.
+
+*   **Dependency Injection & Networking**:
+    *   [**Hilt**](https://developer.android.com/training/dependency-injection/hilt-android): A dependency injection library for Android that reduces the boilerplate of doing manual dependency injection.
+    *   [**Retrofit**](https://square.github.io/retrofit/): A type-safe HTTP client for Android and Java to retrieve data from the remote server.
+    *   [**Room Database**](https://developer.android.com/training/data-storage/room): A persistence library that provides an abstraction layer over SQLite to allow for more robust database access while harnessing the full power of SQLite. It supports offline functionality.
+
+*   **Build & Tooling**:
+    *   [**KSP (Kotlin Symbol Processing)**](https://developer.android.com/build/migrate-to-ksp): An API for writing lightweight compiler plugins in Kotlin, offering significantly better build performance than KAPT.
+    *   [**Navigation Type-Safety**](https://medium.com/androiddevelopers/navigation-compose-meet-type-safety-e081fb3cf2f8): Utilizes the latest type-safe navigation component for navigating between screens in Compose.
+    *   [**Kotlin KTX**](https://developer.android.com/kotlin/ktx): A set of Kotlin extensions that provide concise, idiomatic Kotlin code for Android APIs.
+
+## 🔧 Versioning
+
+*   **Target SDK**: 36
+*   **Minimum SDK**: 29
+*   **Kotlin Version**: 2.3.0
+*   **Gradle Version**: 8.13.2
+
+## 🔗 API Endpoints
+
+The data for this project is sourced from the following public APIs:
+
+*   **PokéAPI**: [https://pokeapi.co/](https://pokeapi.co/)
+*   **Pokémon Sprites**: [https://github.com/PokeAPI/sprites](https://github.com/PokeAPI/sprites)
+
+## 📚 References
+
+*   [Official Carousel Documentation](https://developer.android.com/reference/kotlin/androidx/compose/material3/carousel/package-summary)
+
+
+
+
+
+
+
+
+
+
+
+
+# Carousel Compose
+
 The open-source project implements the new Carousel with Material 3 using Jetpack Compose and
 provides two examples: `HorizontalUncontainedCarousel` and `HorizontalMultiBrowseCarousel`.
 
