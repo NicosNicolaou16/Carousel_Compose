@@ -35,7 +35,6 @@ This project is built with modern Android development tools and follows best pra
 
 *   **Build & Tooling**:
     *   [**KSP (Kotlin Symbol Processing)**](https://developer.android.com/build/migrate-to-ksp): An API for writing lightweight compiler plugins in Kotlin, offering significantly better build performance than KAPT.
-    *   [**Navigation Type-Safety**](https://medium.com/androiddevelopers/navigation-compose-meet-type-safety-e081fb3cf2f8): Utilizes the latest type-safe navigation component for navigating between screens in Compose.
     *   [**Kotlin KTX**](https://developer.android.com/kotlin/ktx): A set of Kotlin extensions that provide concise, idiomatic Kotlin code for Android APIs.
 
 ## 🔧 Versioning
