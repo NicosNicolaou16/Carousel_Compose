@@ -42,7 +42,7 @@ This project is built with modern Android development tools and follows best pra
 *   **Target SDK**: 36
 *   **Minimum SDK**: 29
 *   **Kotlin Version**: 2.3.0
-*   **Gradle Version**: 8.13.2
+*   **Gradle Version**: 9.0.0
 
 ## 🔗 API Endpoints
 
