@@ -9,7 +9,7 @@ An open-source Android project that demonstrates the implementation of the new C
 
 This project showcases different carousel implementations. Here is a preview of the `HorizontalMultiBrowseCarousel`:
 
-<p align="center">
+<p align="left">
   <img src="examples/example_gif.gif" alt="Carousel Example GIF" height="500">
 </p>
 
@@ -57,17 +57,7 @@ The data for this project is sourced from the following public APIs:
 *   [Official Carousel Documentation](https://developer.android.com/reference/kotlin/androidx/compose/material3/carousel/package-summary)
 
 
-
-
-
-
-
-
-
-
-
-
-# Carousel Compose
+<!--# Carousel Compose
 
 The open-source project implements the new Carousel with Material 3 using Jetpack Compose and
 provides two examples: `HorizontalUncontainedCarousel` and `HorizontalMultiBrowseCarousel`.
@@ -135,3 +125,4 @@ https://github.com/PokeAPI/sprites (GitHub) <br />
 # References
 
 https://developer.android.com/reference/kotlin/androidx/compose/material3/carousel/package-summary
+-->
