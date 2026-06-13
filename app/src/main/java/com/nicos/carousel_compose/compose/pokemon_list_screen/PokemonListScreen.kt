@@ -54,7 +54,8 @@ fun PokemonListScreen() {
 
 @Composable
 fun CarouselPokemonList(
-    paddingValues: PaddingValues, pokemonListViewModel: PokemonListViewModel = hiltViewModel()
+    paddingValues: PaddingValues,
+    pokemonListViewModel: PokemonListViewModel = hiltViewModel()
 ) {
     val state = pokemonListViewModel.pokemonListState.collectAsState().value
     if (!state.error.isNullOrEmpty()) ShowDialog(
