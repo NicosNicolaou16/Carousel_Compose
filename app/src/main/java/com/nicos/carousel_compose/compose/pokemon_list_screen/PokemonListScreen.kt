@@ -113,9 +113,9 @@ fun CarouselPokemonList(
                 itemSpacing = 19.dp,
                 contentPadding = PaddingValues(start = 19.dp),
             ) { index ->
-                val pokemonEntity = state.pokemonMutableList[index]
+                val pokemonUi = state.pokemonMutableList[index]
                 LoadPokemonImage(
-                    pokemonUi = pokemonEntity,
+                    pokemonUi = pokemonUi,
                     modifier = Modifier
                         .maskClip(
                             MaterialTheme.shapes.extraLarge
