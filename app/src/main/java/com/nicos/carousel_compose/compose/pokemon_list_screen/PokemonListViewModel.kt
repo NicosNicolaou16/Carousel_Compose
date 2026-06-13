@@ -25,7 +25,7 @@ class PokemonListViewModel @Inject constructor(
     }
 
     fun requestToFetchPokemon(url: String? = null) = viewModelScope.launch(Dispatchers.IO) {
-        pokemonListRepositoryImpl.fetchPokemonList(url = url).let { resource ->
+        pokemonListRepositoryImpl.fetchPokemonList(url = url).collect { resource ->
             when (resource) {
                 is Resource.Success -> {
                     viewModelScope.launch(Dispatchers.Main) {
@@ -52,7 +52,7 @@ class PokemonListViewModel @Inject constructor(
     }
 
     private fun offline() = viewModelScope.launch(Dispatchers.IO) {
-        pokemonListRepositoryImpl.offline().let { resource ->
+        pokemonListRepositoryImpl.offline().collect { resource ->
             when (resource) {
                 is Resource.Success -> {
                     viewModelScope.launch(Dispatchers.Main) {
