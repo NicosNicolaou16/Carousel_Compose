@@ -11,13 +11,13 @@ plugins {
 
 android {
     namespace = "com.nicos.carousel_compose"
-    buildToolsVersion = "36.0.0"
-    compileSdk = 36
+    buildToolsVersion = "37.0.0"
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "com.nicos.carousel_compose"
         minSdk = 29
-        targetSdk = 36
+        targetSdk = 37
         versionCode = 1
         versionName = "1.0"
 
@@ -30,6 +30,7 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = true
+            isShrinkResources = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
@@ -37,6 +38,7 @@ android {
         }
         debug {
             isMinifyEnabled = true
+            isShrinkResources = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
@@ -83,7 +85,6 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
-    implementation(libs.androidx.navigate.compose)
     implementation(libs.androidx.hilt.compose)
     implementation(libs.androidx.compose.runtime)
     implementation(libs.androidx.compose.runtime.livedata)
@@ -112,6 +113,15 @@ dependencies {
     implementation(libs.dagger.android)
     ksp(libs.dagger.compiler)
     ksp(libs.hilt.compiler)
+    ksp(libs.metadata.jvm)
+    // Navigation 3
+    implementation(libs.androidx.navigation3.ui)
+    implementation(libs.androidx.navigation3.runtime)
+    implementation(libs.androidx.lifecycle.viewmodel.navigation3)
+    implementation(libs.androidx.material3.adaptive.navigation3)
+    implementation(libs.kotlinx.serialization.core)
+    // Material 3 Adaptive
+    implementation(libs.androidx.compose.material3.adaptive)
     //Unit Test
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

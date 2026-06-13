@@ -1,4 +1,4 @@
-package com.nicos.carousel_compose.di.database
+package com.nicos.carousel_compose.data.di.database
 
 import android.content.Context
 import com.nicos.carousel_compose.data.room_database.init_database.MyRoomDatabase

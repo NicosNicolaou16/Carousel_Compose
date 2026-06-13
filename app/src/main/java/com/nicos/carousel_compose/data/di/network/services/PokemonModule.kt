@@ -1,6 +1,6 @@
-package com.nicos.carousel_compose.di.network.services
+package com.nicos.carousel_compose.data.di.network.services
 
-import com.nicos.carousel_compose.domain.remote.PokemonService
+import com.nicos.carousel_compose.data.remote.PokemonService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -10,7 +10,7 @@ import javax.inject.Singleton
 
 @Module
 @InstallIn(SingletonComponent::class)
-class PokemonModule {
+object PokemonModule {
 
     @Provides
     @Singleton

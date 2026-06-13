@@ -1,4 +1,4 @@
-package com.nicos.carousel_compose.domain.dto
+package com.nicos.carousel_compose.data.dto
 
 data class PokemonDto(
     val name: String,

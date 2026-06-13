@@ -2,7 +2,7 @@ package com.nicos.carousel_compose.data.room_database.entities
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.nicos.carousel_compose.domain.dto.PokemonDto
+import com.nicos.carousel_compose.data.dto.PokemonDto
 
 @Entity
 data class PokemonEntity(

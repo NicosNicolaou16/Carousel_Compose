@@ -34,7 +34,7 @@ import com.nicos.carousel_compose.R
 import com.nicos.carousel_compose.compose.generic_compose_views.CustomToolbar
 import com.nicos.carousel_compose.compose.generic_compose_views.ShowDialog
 import com.nicos.carousel_compose.compose.generic_compose_views.StartDefaultLoader
-import com.nicos.carousel_compose.data.room_database.entities.PokemonEntity
+import com.nicos.carousel_compose.data.mappers.PokemonUi
 import com.nicos.carousel_compose.ui.theme.GreenLight
 import com.nicos.carousel_compose.utils.extensions.getProgressDrawable
 
@@ -54,7 +54,8 @@ fun PokemonListScreen() {
 
 @Composable
 fun CarouselPokemonList(
-    paddingValues: PaddingValues, pokemonListViewModel: PokemonListViewModel = hiltViewModel()
+    paddingValues: PaddingValues,
+    pokemonListViewModel: PokemonListViewModel = hiltViewModel()
 ) {
     val state = pokemonListViewModel.pokemonListState.collectAsState().value
     if (!state.error.isNullOrEmpty()) ShowDialog(
@@ -80,9 +81,9 @@ fun CarouselPokemonList(
                 itemSpacing = 19.dp,
                 contentPadding = PaddingValues(start = 19.dp),
             ) { index ->
-                val pokemonEntity = state.pokemonMutableList[index]
+                val pokemonUi = state.pokemonMutableList[index]
                 LoadPokemonImage(
-                    pokemonEntity = pokemonEntity,
+                    pokemonUi = pokemonUi,
                     modifier = Modifier
                         .maskClip(
                             MaterialTheme.shapes.extraLarge
@@ -112,9 +113,9 @@ fun CarouselPokemonList(
                 itemSpacing = 19.dp,
                 contentPadding = PaddingValues(start = 19.dp),
             ) { index ->
-                val pokemonEntity = state.pokemonMutableList[index]
+                val pokemonUi = state.pokemonMutableList[index]
                 LoadPokemonImage(
-                    pokemonEntity = pokemonEntity,
+                    pokemonUi = pokemonUi,
                     modifier = Modifier
                         .maskClip(
                             MaterialTheme.shapes.extraLarge
@@ -136,7 +137,7 @@ fun CarouselPokemonList(
 
 @Composable
 fun LoadPokemonImage(
-    pokemonEntity: PokemonEntity,
+    pokemonUi: PokemonUi,
     modifier: Modifier,
 ) {
     val context = LocalContext.current
@@ -146,7 +147,7 @@ fun LoadPokemonImage(
     ) {
         AsyncImage(
             model = ImageRequest.Builder(context = context).apply {
-                data(pokemonEntity.imageUrl)
+                data(pokemonUi.imageUrl)
                 placeholder(getProgressDrawable(context))
                 error(android.R.drawable.stat_notify_error)
                 fallback(android.R.drawable.stat_notify_error)
