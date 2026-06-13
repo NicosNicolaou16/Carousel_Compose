@@ -50,10 +50,10 @@ This project is built with modern Android development tools and follows best pra
 
 ## 🔧 Versioning
 
-*   **Target SDK**: 36
+*   **Target SDK**: 37
 *   **Minimum SDK**: 29
-*   **Kotlin Version**: 2.3.0
-*   **Gradle Version**: 9.0.0
+*   **Kotlin Version**: 2.4.0
+*   **Gradle Version**: 9.2.1
 
 ## 🔗 API Endpoints
 
