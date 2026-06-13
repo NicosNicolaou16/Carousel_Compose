@@ -1,20 +1,19 @@
 package com.nicos.carousel_compose.domain.repositories
 
-import androidx.core.text.isDigitsOnly
-import com.nicos.carousel_compose.data.room_database.entities.PokemonEntity
-import com.nicos.carousel_compose.data.room_database.entities.toPokemonEntity
-import com.nicos.carousel_compose.data.room_database.init_database.MyRoomDatabase
-import com.nicos.carousel_compose.domain.remote.PokemonService
-import com.nicos.carousel_compose.utils.generic_classes.HandlingError
+import com.nicos.carousel_compose.data.mappers.PokemonUi
 import com.nicos.carousel_compose.utils.generic_classes.Resource
-import kotlinx.coroutines.flow.collect
-import javax.inject.Inject
+import kotlinx.coroutines.flow.Flow
 
-class PokemonListRepository @Inject constructor(
+interface PokemonListRepository {
+    suspend fun fetchPokemonList(url: String?): Flow<Resource<MutableList<PokemonUi>>>
+    suspend fun offline(): Flow<Resource<MutableList<PokemonUi>>>
+}
+
+/*class PokemonListRepository @Inject constructor(
     private val myRoomDatabase: MyRoomDatabase,
     private val pokemonService: PokemonService,
     private val handlingError: HandlingError,
-) {
+)*//* {
 
     companion object {
         private const val BASE_IMAGE_URL =
@@ -62,4 +61,4 @@ class PokemonListRepository @Inject constructor(
             Resource.Error(message = handlingError.handleErrorMessage(e))
         }
     }
-}
+}*/

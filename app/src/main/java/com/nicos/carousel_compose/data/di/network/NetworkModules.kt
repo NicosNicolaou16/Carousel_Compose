@@ -1,6 +1,6 @@
-package com.nicos.carousel_compose.di.network
+package com.nicos.carousel_compose.data.di.network
 
-import com.nicos.carousel_compose.domain.remote.init_network.MyNetworkManager
+import com.nicos.carousel_compose.data.remote.init_network.MyNetworkManager
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
