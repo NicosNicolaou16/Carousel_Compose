@@ -26,6 +26,7 @@ swipeRefreshLayoutVersion = "1.2.0"
 gsonVersion = "2.14.0"
 kotlinSerializationVersion = "1.11.0"
 material3Version = "1.4.0"
+kotlin-metadata-version = "2.4.0"
 
 [libraries]
 # Architecture
@@ -70,6 +71,7 @@ kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-
 dagger-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hiltVersion" }
 dagger-compiler = { group = "com.google.dagger", name = "hilt-compiler", version.ref = "hiltVersion" }
 hilt-compiler = { group = "androidx.hilt", name = "hilt-compiler", version.ref = "hiltCompilerVersion" }
+metadata-jvm = { group = "org.jetbrains.kotlin", name = "kotlin-metadata-jvm", version.ref = "kotlin-metadata-version" }
 # Unit Test
 androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
