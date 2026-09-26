@@ -42,7 +42,7 @@ This project is built with modern Android development tools and follows best pra
 *   **Dependency Injection & Networking**:
     *   [**Hilt**](https://developer.android.com/training/dependency-injection/hilt-android): A dependency injection library for Android that reduces the boilerplate of doing manual dependency injection.
     *   [**Retrofit**](https://square.github.io/retrofit/): A type-safe HTTP client for Android and Java to retrieve data from the remote server.
-    *   [**Room Database**](https://developer.android.com/training/data-storage/room): A persistence library that provides an abstraction layer over SQLite to allow for more robust database access while harnessing the full power of SQLite. It supports offline functionality.
+    *   [**Room 3 Database**](https://developer.android.com/training/data-storage/room): A persistence library that provides an abstraction layer over SQLite to allow for more robust database access while harnessing the full power of SQLite. It supports offline functionality.
 
 *   **Build & Tooling**:
     *   [**KSP (Kotlin Symbol Processing)**](https://developer.android.com/build/migrate-to-ksp): An API for writing lightweight compiler plugins in Kotlin, offering significantly better build performance than KAPT.
