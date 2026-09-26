@@ -1,6 +1,6 @@
 package com.nicos.carousel_compose.data.room_database.init_database
 
-import androidx.room.*
+import androidx.room3.*
 
 interface BaseDao<O, L> {
 
