@@ -1,20 +1,20 @@
 [versions]
-agp = "9.3.2"
-kotlin = "2.4.10"
-coreKtx = "1.19.0"
+agp = "9.4.1"
+kotlin = "2.4.20"
+coreKtx = "1.19.1"
 junit = "4.13.2"
 junitVersion = "1.3.0"
 espressoCore = "3.7.0"
-composeVersion = "1.12.0"
+composeVersion = "1.12.1"
 lifecycleRuntimeKtx = "2.11.0"
 activityCompose = "1.13.0"
 composeHiltNavigationVersion = "1.4.0"
-uiComposeVersion = "1.12.0"
-animationComposeVersion = "1.12.0"
-foundationComposeVersion = "1.12.0"
-composeBom = "2026.08.00"
-roomVersion = "2.8.4"
-kspVersion = "2.3.10"
+uiComposeVersion = "1.12.1"
+animationComposeVersion = "1.12.1"
+foundationComposeVersion = "1.12.1"
+composeBom = "2026.09.00"
+roomVersion = "3.0.3"
+kspVersion = "2.3.11"
 retrofitVersion = "3.0.0"
 okHttpVersion = "5.5.0"
 coilVersion = "2.7.0"
@@ -25,9 +25,9 @@ swipeRefreshLayoutVersion = "1.2.0"
 gsonVersion = "2.14.0"
 kotlinSerializationVersion = "1.11.0"
 material3Version = "1.4.0"
-nav3Core = "1.1.7"
+nav3Core = "1.2.0"
 material3AdaptiveNav3 = "1.3.0"
-kotlin-metadata-version = "2.4.10"
+kotlin-metadata-version = "2.4.20"
 
 [libraries]
 # Architecture
@@ -50,9 +50,8 @@ androidx-animation = { group = "androidx.compose.animation", name = "animation",
 androidx-foundation = { group = "androidx.compose.foundation", name = "foundation", version.ref = "foundationComposeVersion" }
 androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
 # Room Database
-androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "roomVersion" }
-androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "roomVersion" }
-androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomVersion" }
+androidx-room-runtime = { group = "androidx.room3", name = "room3-runtime", version.ref = "roomVersion" }
+androidx-room-compiler = { group = "androidx.room3", name = "room3-compiler", version.ref = "roomVersion" }
 # Retrofit
 retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofitVersion" }
 retrofit-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofitVersion" }

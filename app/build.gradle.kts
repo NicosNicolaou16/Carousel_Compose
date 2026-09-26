@@ -94,7 +94,6 @@ dependencies {
     //Room Database
     implementation(libs.androidx.room.runtime)
     ksp(libs.androidx.room.compiler)
-    implementation(libs.androidx.room.ktx)
     //Retrofit
     implementation(libs.retrofit)
     implementation(libs.retrofit.gson)
