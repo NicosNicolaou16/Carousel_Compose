@@ -53,7 +53,7 @@ This project is built with modern Android development tools and follows best pra
 *   **Target SDK**: 37
 *   **Minimum SDK**: 29
 *   **Kotlin Version**: 2.4.20
-*   **Gradle Version**: 9.4.1
+*   **AGP Version**: 9.5.0
 *   **Gradle Version**: 9.8.2
 
 ## 🔗 API Endpoints
