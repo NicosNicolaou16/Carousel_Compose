@@ -20,42 +20,18 @@
 # hide the original source file name.
 -renamesourcefileattribute SourceFile
 
-##---------------Begin: proguard configuration for Gson  ----------
-# Gson uses generic type information stored in a class file when working with fields. Proguard
-# removes such information by default, so configure it to keep all of it.
--keepattributes Signature
-
-# For using GSON @Expose annotation
--keepattributes *Annotation*
-
-# Gson specific classes
--dontwarn sun.misc.**
-#-keep class com.google.gson.stream.** { *; }
-
-# Application classes that will be serialized/deserialized over Gson
--keep class com.nicos.carousel_compose.data.pokemon_response_model.PokemonResponse.** { <fields>; }
-
-# Prevent proguard from stripping interface information from TypeAdapter, TypeAdapterFactory,
-# JsonSerializer, JsonDeserializer instances (so they can be used in @JsonAdapter)
--keep class * extends com.google.gson.TypeAdapter
--keep class * implements com.google.gson.TypeAdapterFactory
--keep class * implements com.google.gson.JsonSerializer
--keep class * implements com.google.gson.JsonDeserializer
-
-# Prevent R8 from leaving Data object members always null
--keepclassmembers,allowobfuscation class * {
-  @com.google.gson.annotations.SerializedName <fields>;
+##---------------Begin: kotlinx.serialization ----------
+# kotlinx-serialization-json ships its own R8/ProGuard rules (consumer rules),
+# so @Serializable classes need no manual keep rules here.
+# Keep the generated serializers of our network models explicitly as a safety net.
+-keep,includedescriptorclasses class com.nicos.carousel_compose.data.**$$serializer { *; }
+-keepclassmembers class com.nicos.carousel_compose.data.** {
+    *** Companion;
 }
-# new Lines
--keep class * {
-  @com.google.gson.annotations.SerializedName <fields>;
+-keepclasseswithmembers class com.nicos.carousel_compose.data.** {
+    kotlinx.serialization.KSerializer serializer(...);
 }
-
-# Retain generic signatures of TypeToken and its subclasses with R8 version 3.0 and higher.
--keep,allowobfuscation class com.google.gson.reflect.TypeToken
--keep,allowobfuscation class * extends com.google.gson.reflect.TypeToken
-
-##---------------End: proguard configuration for Gson  ----------
+##---------------End: kotlinx.serialization ----------
 
 # Others
 -dontwarn java.lang.instrument.ClassFileTransformer

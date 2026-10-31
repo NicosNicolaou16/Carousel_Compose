@@ -1,10 +1,12 @@
 package com.nicos.carousel_compose.data.pokemon_response_model
 
-import com.google.gson.annotations.SerializedName
 import com.nicos.carousel_compose.data.dto.PokemonDto
+import kotlinx.serialization.SerialName
+import kotlinx.serialization.Serializable
 
+@Serializable
 data class PokemonResponse(
-    @SerializedName("next") val nextUrl: String?,
-    @SerializedName("results") val results: MutableList<PokemonDto>
+    @SerialName("next") val nextUrl: String?,
+    @SerialName("results") val results: MutableList<PokemonDto>
 ) {
 }
