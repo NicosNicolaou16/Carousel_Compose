@@ -27,7 +27,7 @@ kotlinSerializationVersion = "1.12.0"
 material3Version = "1.4.0"
 nav3Core = "1.2.0"
 material3AdaptiveNav3 = "1.3.0"
-kotlin-metadata-version = "2.4.20"
+kotlin-metadata-version = "2.4.21"
 
 [libraries]
 # Architecture
